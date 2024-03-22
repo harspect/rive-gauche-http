@@ -1,13 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
   <CompilationType>CSharp</CompilationType>
-<<<<<<< HEAD
-  <Description i:nil="true" />
-  <Id>86d2019c-2cbf-414e-a9ab-028367a22ec8</Id>
-  <Logic z:Id="i2" i:type="ExecutedStep">
-    <Childs />
-    <Id>f37347e0-62e0-41f4-bd50-1af2f03bf173</Id>
-=======
   <Description>Новый скрипт без наполнения.</Description>
   <Id>3da895be-d2ef-4223-9777-023677b8cb00</Id>
   <Logic z:Id="i2" i:type="ExecutedStep">
@@ -904,7 +897,6 @@ dt_products.Rows.Add(row_temp);</_value>
       </AbstractStep>
     </Childs>
     <Id>ff1dabac-e810-489f-8351-d63b93dd269b</Id>
->>>>>>> f303b7c (make some other changes in project logic)
     <Parent i:nil="true" />
     <PropertyValues />
     <SelectedOptionId i:nil="true" />
@@ -915,10 +907,6 @@ dt_products.Rows.Add(row_temp);</_value>
     <_activityFullName>BR.Core.Base.Container</_activityFullName>
   </Logic>
   <Name>ProcessCommonData.pix</Name>
-<<<<<<< HEAD
-  <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <Params />
-=======
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:string>System.Text.RegularExpressions</d2p1:string>
   </Namespaces>
@@ -954,7 +942,6 @@ dt_products.Rows.Add(row_temp);</_value>
       <TypeString>System.Text.Json.JsonElement</TypeString>
     </Parameter>
   </Params>
->>>>>>> f303b7c (make some other changes in project logic)
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />

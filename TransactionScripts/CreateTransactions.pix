@@ -107,84 +107,16 @@
                       </AbstractStep>
                       <AbstractStep z:Id="i17" i:type="ExecutedStep">
                         <Childs />
-<<<<<<< HEAD
-                        <Id>51d7bbdd-4933-4bf4-b01a-b8fd4c782274</Id>
-                        <Parent z:Ref="i13" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i18">
-                            <PropertyName>Value</PropertyName>
-                            <_dataType>Expression</_dataType>
-                            <_expression>$"{dict_config["PathRequest"]}".Trim()</_expression>
-                            <_value i:nil="true" />
-                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                          </PropertyValue>
-                          <PropertyValue z:Id="i19">
-                            <PropertyName>To</PropertyName>
-                            <_dataType>Expression</_dataType>
-                            <_expression>str_pathRequestFile</_expression>
-                            <_value i:nil="true" />
-                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                          </PropertyValue>
-                        </PropertyValues>
-                        <SelectedOptionId i:nil="true" />
-                        <EnableStatus>true</EnableStatus>
-                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                        <RetryCount>-1</RetryCount>
-                        <Text>Путь к входному файлу</Text>
-                        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                      </AbstractStep>
-                      <AbstractStep z:Id="i20" i:type="ExecutedStep">
-                        <Childs />
-                        <Id>00fc6f9c-215a-415c-aeff-cce2cc5b31d6</Id>
-                        <Parent z:Ref="i13" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i21">
-                            <PropertyName>SheetName</PropertyName>
-                            <_dataType>Expression</_dataType>
-                            <_expression>"Employees"</_expression>
-                            <_value i:nil="true" />
-                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                          </PropertyValue>
-                          <PropertyValue z:Id="i22">
-                            <PropertyName>Range</PropertyName>
-                            <_dataType>Expression</_dataType>
-                            <_expression>""</_expression>
-                            <_value i:nil="true" />
-                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                          </PropertyValue>
-                          <PropertyValue z:Id="i23">
-                            <PropertyName>WithHeaders</PropertyName>
-                            <_dataType>Value</_dataType>
-                            <_expression i:nil="true" />
-                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
-                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                          </PropertyValue>
-                          <PropertyValue z:Id="i24">
-                            <PropertyName>IgnoreEmptyRowsColumsAtStart</PropertyName>
-                            <_dataType>Value</_dataType>
-                            <_expression i:nil="true" />
-                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">true</_value>
-                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                          </PropertyValue>
-                          <PropertyValue z:Id="i25">
-=======
                         <Id>e3b343eb-d723-4202-ba8e-448ea69f4a4e</Id>
                         <Parent z:Ref="i13" />
                         <PropertyValues>
                           <PropertyValue z:Id="i18">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Result</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>dt_transactions</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i26">
-                            <PropertyName>FileName</PropertyName>
-                            <_dataType>Expression</_dataType>
-                            <_expression>str_pathRequestFile</_expression>
-=======
                           <PropertyValue z:Id="i19">
                             <PropertyName>InSqlConnection</PropertyName>
                             <_dataType>Expression</_dataType>
@@ -251,7 +183,6 @@
                             <PropertyName>To</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>dict_config["NumberOfTransactions"]</_expression>
->>>>>>> f303b7c (make some other changes in project logic)
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
@@ -260,17 +191,6 @@
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
-<<<<<<< HEAD
-                        <Text>Прочитать входной файл</Text>
-                        <_activityFullName>Activities.Office.Excel.ReadRange</_activityFullName>
-                      </AbstractStep>
-                      <AbstractStep z:Id="i27" i:type="ExecutedStep">
-                        <Childs>
-                          <AbstractStep z:Id="i28" i:type="CommentStep">
-                            <Childs />
-                            <Id>2a45164f-7a78-455d-94d4-2d8d8a3ab8a4</Id>
-                            <Parent z:Ref="i27" />
-=======
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                       </AbstractStep>
@@ -280,29 +200,10 @@
                             <Childs />
                             <Id>2a45164f-7a78-455d-94d4-2d8d8a3ab8a4</Id>
                             <Parent z:Ref="i28" />
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <Text>Все параметры транзакции добавляем в качестве переменных в словарь dict_Parameters.</Text>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i29" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>9f9d99a8-802b-451e-b922-7ddc0bbd3842</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i30">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["First Name"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i31">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["First Name"]</_expression>
-=======
                           <AbstractStep z:Id="i30" i:type="ExecutedStep">
                             <Childs />
                             <Id>9f9d99a8-802b-451e-b922-7ddc0bbd3842</Id>
@@ -319,7 +220,6 @@
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>dict_parameters["id"]</_expression>
->>>>>>> f303b7c (make some other changes in project logic)
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -331,24 +231,6 @@
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i32" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>aa15ffce-035f-4e71-bc92-a1081f7e94f4</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i33">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["Last Name"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i34">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["Last Name"]</_expression>
-=======
                           <AbstractStep z:Id="i33" i:type="ExecutedStep">
                             <Childs />
                             <Id>aa15ffce-035f-4e71-bc92-a1081f7e94f4</Id>
@@ -365,7 +247,6 @@
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>dict_parameters["brandName"]</_expression>
->>>>>>> f303b7c (make some other changes in project logic)
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -377,51 +258,6 @@
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i35" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>3f95dfd0-1f71-44e5-9cb7-919ffd9006d2</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i36">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["Email"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i37">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["Email"]</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                            </PropertyValues>
-                            <SelectedOptionId i:nil="true" />
-                            <EnableStatus>true</EnableStatus>
-                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                            <RetryCount>-1</RetryCount>
-                            <Text></Text>
-                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                          </AbstractStep>
-                          <AbstractStep z:Id="i38" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>94c97c56-5a7b-47d9-b531-50317719257e</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i39">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["Phone Number"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i40">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["Phone Number"]</_expression>
-=======
                           <AbstractStep z:Id="i36" i:type="ExecutedStep">
                             <Childs />
                             <Id>3f95dfd0-1f71-44e5-9cb7-919ffd9006d2</Id>
@@ -438,7 +274,6 @@
                                 <PropertyName>To</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>dict_parameters["regions"]</_expression>
->>>>>>> f303b7c (make some other changes in project logic)
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
@@ -450,249 +285,104 @@
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i41" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>48cc1d02-8d55-4acb-9cde-9e1b88b5c679</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i42">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["Address"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i43">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["Address"]</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                            </PropertyValues>
-                            <SelectedOptionId i:nil="true" />
-                            <EnableStatus>true</EnableStatus>
-                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                            <RetryCount>-1</RetryCount>
-                            <Text></Text>
-                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                          </AbstractStep>
-                          <AbstractStep z:Id="i44" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>7b43bc60-952b-4eb2-8b4f-13db4a7f698a</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i45">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["Company Name"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i46">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["Company Name"]</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                            </PropertyValues>
-                            <SelectedOptionId i:nil="true" />
-                            <EnableStatus>true</EnableStatus>
-                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                            <RetryCount>-1</RetryCount>
-                            <Text></Text>
-                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                          </AbstractStep>
-                          <AbstractStep z:Id="i47" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>b68510dc-198c-4d8a-b57f-fdfcda00518e</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i48">
-                                <PropertyName>Value</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>$"{row["Role in Company"]}"</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                              <PropertyValue z:Id="i49">
-                                <PropertyName>To</PropertyName>
-                                <_dataType>Expression</_dataType>
-                                <_expression>dict_parameters["Role in Company"]</_expression>
-                                <_value i:nil="true" />
-                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                              </PropertyValue>
-                            </PropertyValues>
-                            <SelectedOptionId i:nil="true" />
-                            <EnableStatus>true</EnableStatus>
-                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                            <RetryCount>-1</RetryCount>
-                            <Text></Text>
-                            <_activityFullName>BR.Core.Base.Assign</_activityFullName>
-                          </AbstractStep>
-                          <AbstractStep z:Id="i50" i:type="CommentStep">
-                            <Childs />
-                            <Id>66bd5919-acff-4af1-a2e9-3bd699b62a45</Id>
-                            <Parent z:Ref="i27" />
-=======
                           <AbstractStep z:Id="i39" i:type="CommentStep">
                             <Childs />
                             <Id>66bd5919-acff-4af1-a2e9-3bd699b62a45</Id>
                             <Parent z:Ref="i28" />
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <Text>Добавление транзакции в целевую очередь. В качестве значения указываем преобразованный в JSON словарь dict_parameters</Text>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i51" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>326141f9-fe17-46ec-a07e-6839a9d2fb9b</Id>
-                            <Parent z:Ref="i27" />
-                            <PropertyValues>
-                              <PropertyValue z:Id="i52">
-=======
                           <AbstractStep z:Id="i40" i:type="ExecutedStep">
                             <Childs />
                             <Id>326141f9-fe17-46ec-a07e-6839a9d2fb9b</Id>
                             <Parent z:Ref="i28" />
                             <PropertyValues>
                               <PropertyValue z:Id="i41">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>QueueName</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_queueName</_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i53">
-=======
                               <PropertyValue z:Id="i42">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>Data</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>Newtonsoft.Json.JsonConvert.SerializeObject(dict_parameters)</_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i54">
-=======
                               <PropertyValue z:Id="i43">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>Priority</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/Activities.Queues.Enums" i:type="d17p1:QueueItemPriority">Middle</_value>
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i55">
-=======
                               <PropertyValue z:Id="i44">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>PostponeDate</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i56">
-=======
                               <PropertyValue z:Id="i45">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>DeadlineDate</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i57">
-=======
                               <PropertyValue z:Id="i46">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>Comment</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>str_queueItemComment</_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i58">
-=======
                               <PropertyValue z:Id="i47">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>Reference</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression></_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i59">
-=======
                               <PropertyValue z:Id="i48">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>IsReferenceUnique</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression i:nil="true" />
                                 <_value xmlns:d17p1="http://www.w3.org/2001/XMLSchema" i:type="d17p1:boolean">false</_value>
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i60">
-=======
                               <PropertyValue z:Id="i49">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>ID</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression></_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i61">
-=======
                               <PropertyValue z:Id="i50">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>InputData</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression></_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i62">
-=======
                               <PropertyValue z:Id="i51">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>Table</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression></_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i63">
-=======
                               <PropertyValue z:Id="i52">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>SlaTotal</PropertyName>
                                 <_dataType>Value</_dataType>
                                 <_expression></_expression>
                                 <_value i:nil="true" />
                                 <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                               </PropertyValue>
-<<<<<<< HEAD
-                              <PropertyValue z:Id="i64">
-=======
                               <PropertyValue z:Id="i53">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <PropertyName>QueueItemData</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression></_expression>
@@ -711,33 +401,21 @@
                         <Id>49b0178d-41ca-4fca-8ef8-31dc087d1417</Id>
                         <Parent z:Ref="i13" />
                         <PropertyValues>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i65">
-=======
                           <PropertyValue z:Id="i54">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Collection</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>dt_transactions.AsEnumerable()</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i66">
-=======
                           <PropertyValue z:Id="i55">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Iterator</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>row</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i67">
-=======
                           <PropertyValue z:Id="i56">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Counter</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression></_expression>
@@ -752,31 +430,19 @@
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
                       </AbstractStep>
-<<<<<<< HEAD
-                      <AbstractStep z:Id="i68" i:type="ExecutedStep">
-=======
                       <AbstractStep z:Id="i57" i:type="ExecutedStep">
->>>>>>> f303b7c (make some other changes in project logic)
                         <Childs />
                         <Id>7127bef7-e559-4b48-a312-fd6cb6348669</Id>
                         <Parent z:Ref="i13" />
                         <PropertyValues>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i69">
-=======
                           <PropertyValue z:Id="i58">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Level</PropertyName>
                             <_dataType>Value</_dataType>
                             <_expression i:nil="true" />
                             <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.Core.Base" i:type="d15p1:LogLevel">Info</_value>
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i70">
-=======
                           <PropertyValue z:Id="i59">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Text</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>$"LogStep: Все транзакции в очереди '{str_queueName}' созданы"</_expression>
@@ -802,114 +468,64 @@
                     <Text></Text>
                     <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                   </AbstractStep>
-<<<<<<< HEAD
-                  <AbstractStep z:Id="i71" i:type="ExecutedStep">
-                    <Childs>
-                      <AbstractStep z:Id="i72" i:type="CommentStep">
-                        <Childs />
-                        <Id>bb6c333f-ff7d-405b-8bd1-4663875cc155</Id>
-                        <Parent z:Ref="i71" />
-=======
                   <AbstractStep z:Id="i60" i:type="ExecutedStep">
                     <Childs>
                       <AbstractStep z:Id="i61" i:type="CommentStep">
                         <Childs />
                         <Id>bb6c333f-ff7d-405b-8bd1-4663875cc155</Id>
                         <Parent z:Ref="i60" />
->>>>>>> f303b7c (make some other changes in project logic)
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <Text>Выполняется в целях тестирования</Text>
                       </AbstractStep>
-<<<<<<< HEAD
-                      <AbstractStep z:Id="i73" i:type="ExecutedStep">
-                        <Childs />
-                        <Id>ad0dc1fc-ca81-490c-b04e-202a5ab522f7</Id>
-                        <Parent z:Ref="i71" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i74">
-=======
                       <AbstractStep z:Id="i62" i:type="ExecutedStep">
                         <Childs />
                         <Id>ad0dc1fc-ca81-490c-b04e-202a5ab522f7</Id>
                         <Parent z:Ref="i60" />
                         <PropertyValues>
                           <PropertyValue z:Id="i63">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>FilePath</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>@"TransactionScripts\Process.pix"</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i75">
-=======
                           <PropertyValue z:Id="i64">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Parameters</PropertyName>
                             <_dataType>Value</_dataType>
                             <_expression i:nil="true" />
                             <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d15p1:ArrayOfArgumentItem">
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i76">
-=======
                               <d15p1:ArgumentItem z:Id="i65">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>dict_config</d15p1:ArgumentName>
                                 <d15p1:Expression>dict_config</d15p1:Expression>
                                 <d15p1:Type>Dictionary&lt;System.String, System.Object&gt;</d15p1:Type>
                               </d15p1:ArgumentItem>
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i77">
-=======
                               <d15p1:ArgumentItem z:Id="i66">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>dict_paths</d15p1:ArgumentName>
                                 <d15p1:Expression>dict_paths</d15p1:Expression>
                                 <d15p1:Type>Dictionary&lt;System.String, System.String&gt;</d15p1:Type>
                               </d15p1:ArgumentItem>
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i78">
-=======
                               <d15p1:ArgumentItem z:Id="i67">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>dict_secureData</d15p1:ArgumentName>
                                 <d15p1:Expression>dict_secureData</d15p1:Expression>
                                 <d15p1:Type>Dictionary&lt;System.String, System.Security.SecureString&gt;</d15p1:Type>
                               </d15p1:ArgumentItem>
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i79">
-=======
                               <d15p1:ArgumentItem z:Id="i68">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>str_transactionID</d15p1:ArgumentName>
                                 <d15p1:Expression>""</d15p1:Expression>
                                 <d15p1:Type>System.String</d15p1:Type>
                               </d15p1:ArgumentItem>
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i80">
-=======
                               <d15p1:ArgumentItem z:Id="i69">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>int_maxTransactionRetry</d15p1:ArgumentName>
                                 <d15p1:Expression>1</d15p1:Expression>
                                 <d15p1:Type>System.Int32</d15p1:Type>
                               </d15p1:ArgumentItem>
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i81">
-=======
                               <d15p1:ArgumentItem z:Id="i70">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>int_transactionRetryCounter</d15p1:ArgumentName>
                                 <d15p1:Expression>0</d15p1:Expression>
                                 <d15p1:Type>System.Int32</d15p1:Type>
                               </d15p1:ArgumentItem>
-<<<<<<< HEAD
-                              <d15p1:ArgumentItem z:Id="i82">
-=======
                               <d15p1:ArgumentItem z:Id="i71">
->>>>>>> f303b7c (make some other changes in project logic)
                                 <d15p1:ArgumentName>str_transactionItem</d15p1:ArgumentName>
                                 <d15p1:Expression>""</d15p1:Expression>
                                 <d15p1:Type>System.String</d15p1:Type>
@@ -917,11 +533,7 @@
                             </_value>
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i83">
-=======
                           <PropertyValue z:Id="i72">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Timeout</PropertyName>
                             <_dataType>Value</_dataType>
                             <_expression i:nil="true" />
@@ -951,11 +563,7 @@
                 <Id>f0573777-7920-4e91-b974-102903305ef1</Id>
                 <Parent z:Ref="i11" />
                 <PropertyValues>
-<<<<<<< HEAD
-                  <PropertyValue z:Id="i84">
-=======
                   <PropertyValue z:Id="i73">
->>>>>>> f303b7c (make some other changes in project logic)
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>bool_useDispatcher==true</_expression>
@@ -982,24 +590,6 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
             <Text></Text>
             <_activityFullName>BR.Core.Base.Try</_activityFullName>
           </AbstractStep>
-<<<<<<< HEAD
-          <AbstractStep z:Id="i85" i:type="ExecutedStep">
-            <Childs>
-              <AbstractStep z:Id="i86" i:type="ExecutedStep">
-                <Childs>
-                  <AbstractStep z:Id="i87" i:type="ExecutedStep">
-                    <Childs>
-                      <AbstractStep z:Id="i88" i:type="ExecutedStep">
-                        <Childs>
-                          <AbstractStep z:Id="i89" i:type="ExecutedStep">
-                            <Childs>
-                              <AbstractStep z:Id="i90" i:type="ExecutedStep">
-                                <Childs />
-                                <Id>328dd5ef-a70c-4c17-9820-93c4cc0320ae</Id>
-                                <Parent z:Ref="i89" />
-                                <PropertyValues>
-                                  <PropertyValue z:Id="i91">
-=======
           <AbstractStep z:Id="i74" i:type="ExecutedStep">
             <Childs>
               <AbstractStep z:Id="i75" i:type="ExecutedStep">
@@ -1016,18 +606,13 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                                 <Parent z:Ref="i78" />
                                 <PropertyValues>
                                   <PropertyValue z:Id="i80">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>Value</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>$"{error.GetType()}: {errorMessage}"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-<<<<<<< HEAD
-                                  <PropertyValue z:Id="i92">
-=======
                                   <PropertyValue z:Id="i81">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>To</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>dict_config["MessageBody"]</_expression>
@@ -1042,78 +627,44 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                                 <Text>Тело сообщения - Бизнес-ошибка</Text>
                                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                               </AbstractStep>
-<<<<<<< HEAD
-                              <AbstractStep z:Id="i93" i:type="ExecutedStep">
-                                <Childs />
-                                <Id>677f53f2-18c3-4198-9e6a-5b3ed0bb9bd0</Id>
-                                <Parent z:Ref="i89" />
-                                <PropertyValues>
-                                  <PropertyValue z:Id="i94">
-=======
                               <AbstractStep z:Id="i82" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>677f53f2-18c3-4198-9e6a-5b3ed0bb9bd0</Id>
                                 <Parent z:Ref="i78" />
                                 <PropertyValues>
                                   <PropertyValue z:Id="i83">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>FilePath</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>@"FrameworkScripts\Notification.pix"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-<<<<<<< HEAD
-                                  <PropertyValue z:Id="i95">
-=======
                                   <PropertyValue z:Id="i84">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>Parameters</PropertyName>
                                     <_dataType>Value</_dataType>
                                     <_expression i:nil="true" />
                                     <_value xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d19p1:ArrayOfArgumentItem">
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i96">
-=======
                                       <d19p1:ArgumentItem z:Id="i85">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>dict_config</d19p1:ArgumentName>
                                         <d19p1:Expression>dict_config</d19p1:Expression>
                                         <d19p1:Type>Dictionary&lt;System.String, System.Object&gt;</d19p1:Type>
                                       </d19p1:ArgumentItem>
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i97">
-=======
                                       <d19p1:ArgumentItem z:Id="i86">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>int_notifyType</d19p1:ArgumentName>
                                         <d19p1:Expression>2</d19p1:Expression>
                                         <d19p1:Type>System.Int32</d19p1:Type>
                                       </d19p1:ArgumentItem>
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i98">
-=======
                                       <d19p1:ArgumentItem z:Id="i87">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>list_attaches</d19p1:ArgumentName>
                                         <d19p1:Expression>new List&lt;string&gt;{}</d19p1:Expression>
                                         <d19p1:Type>List&lt;System.String&gt;</d19p1:Type>
                                       </d19p1:ArgumentItem>
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i99">
-                                        <d19p1:ArgumentName>sec_mailPassword</d19p1:ArgumentName>
-                                        <d19p1:Expression>dict_secureData["MailCred_passwd"]</d19p1:Expression>
-                                        <d19p1:Type>System.Security.SecureString</d19p1:Type>
-                                      </d19p1:ArgumentItem>
-                                      <d19p1:ArgumentItem z:Id="i100">
-=======
                                       <d19p1:ArgumentItem z:Id="i88">
                                         <d19p1:ArgumentName>sec_mailPassword</d19p1:ArgumentName>
                                         <d19p1:Expression>dict_secureData["MailCred"]</d19p1:Expression>
                                         <d19p1:Type>System.Security.SecureString</d19p1:Type>
                                       </d19p1:ArgumentItem>
                                       <d19p1:ArgumentItem z:Id="i89">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>bool_takeScreenshot</d19p1:ArgumentName>
                                         <d19p1:Expression>false</d19p1:Expression>
                                         <d19p1:Type>System.Boolean</d19p1:Type>
@@ -1121,11 +672,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                                     </_value>
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-<<<<<<< HEAD
-                                  <PropertyValue z:Id="i101">
-=======
                                   <PropertyValue z:Id="i90">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>Timeout</PropertyName>
                                     <_dataType>Value</_dataType>
                                     <_expression i:nil="true" />
@@ -1142,11 +689,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                               </AbstractStep>
                             </Childs>
                             <Id>7f622b4d-2575-4c69-b9a2-cedada0b9c38</Id>
-<<<<<<< HEAD
-                            <Parent z:Ref="i88" />
-=======
                             <Parent z:Ref="i77" />
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <EnableStatus>true</EnableStatus>
@@ -1155,17 +698,10 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i102" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>e9177d47-70c0-46ed-aa04-5b076bcc57db</Id>
-                            <Parent z:Ref="i88" />
-=======
                           <AbstractStep z:Id="i91" i:type="ExecutedStep">
                             <Childs />
                             <Id>e9177d47-70c0-46ed-aa04-5b076bcc57db</Id>
                             <Parent z:Ref="i77" />
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <EnableStatus>true</EnableStatus>
@@ -1176,15 +712,9 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                           </AbstractStep>
                         </Childs>
                         <Id>198c9bdb-9e1f-404a-a278-e4bed5c7c9f8</Id>
-<<<<<<< HEAD
-                        <Parent z:Ref="i87" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i103">
-=======
                         <Parent z:Ref="i76" />
                         <PropertyValues>
                           <PropertyValue z:Id="i92">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Condition</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>int_transactionRetryCounter==int_maxTransactionRetry</_expression>
@@ -1199,32 +729,19 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.If</_activityFullName>
                       </AbstractStep>
-<<<<<<< HEAD
-                      <AbstractStep z:Id="i104" i:type="ExecutedStep">
-                        <Childs />
-                        <Id>de99e5bd-4c67-47d9-a0fb-8f8a1e9c4887</Id>
-                        <Parent z:Ref="i87" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i105">
-=======
                       <AbstractStep z:Id="i93" i:type="ExecutedStep">
                         <Childs />
                         <Id>de99e5bd-4c67-47d9-a0fb-8f8a1e9c4887</Id>
                         <Parent z:Ref="i76" />
                         <PropertyValues>
                           <PropertyValue z:Id="i94">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Text</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorInfo</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i106">
-=======
                           <PropertyValue z:Id="i95">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>new BusinessRuleException($"{error.GetType()}: {errorMessage}")</_expression>
@@ -1241,11 +758,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                       </AbstractStep>
                     </Childs>
                     <Id>9e055a8d-0e76-40db-8515-3e82d742db3a</Id>
-<<<<<<< HEAD
-                    <Parent z:Ref="i86" />
-=======
                     <Parent z:Ref="i75" />
->>>>>>> f303b7c (make some other changes in project logic)
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <EnableStatus>true</EnableStatus>
@@ -1254,20 +767,6 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                     <Text></Text>
                     <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                   </AbstractStep>
-<<<<<<< HEAD
-                  <AbstractStep z:Id="i107" i:type="ExecutedStep">
-                    <Childs>
-                      <AbstractStep z:Id="i108" i:type="ExecutedStep">
-                        <Childs>
-                          <AbstractStep z:Id="i109" i:type="ExecutedStep">
-                            <Childs>
-                              <AbstractStep z:Id="i110" i:type="ExecutedStep">
-                                <Childs />
-                                <Id>5c1609ee-52c5-4c2a-a641-8f37e074e783</Id>
-                                <Parent z:Ref="i109" />
-                                <PropertyValues>
-                                  <PropertyValue z:Id="i111">
-=======
                   <AbstractStep z:Id="i96" i:type="ExecutedStep">
                     <Childs>
                       <AbstractStep z:Id="i97" i:type="ExecutedStep">
@@ -1280,18 +779,13 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                                 <Parent z:Ref="i98" />
                                 <PropertyValues>
                                   <PropertyValue z:Id="i100">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>Value</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>$"{error.GetType()}: {errorMessage}\n{errorSource}"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-<<<<<<< HEAD
-                                  <PropertyValue z:Id="i112">
-=======
                                   <PropertyValue z:Id="i101">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>To</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>dict_config["MessageBody"]</_expression>
@@ -1306,78 +800,44 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                                 <Text>Тело сообщения - Системная ошибка</Text>
                                 <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                               </AbstractStep>
-<<<<<<< HEAD
-                              <AbstractStep z:Id="i113" i:type="ExecutedStep">
-                                <Childs />
-                                <Id>cefa4aae-acf2-4b24-918b-0629ca1fff68</Id>
-                                <Parent z:Ref="i109" />
-                                <PropertyValues>
-                                  <PropertyValue z:Id="i114">
-=======
                               <AbstractStep z:Id="i102" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>cefa4aae-acf2-4b24-918b-0629ca1fff68</Id>
                                 <Parent z:Ref="i98" />
                                 <PropertyValues>
                                   <PropertyValue z:Id="i103">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>FilePath</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>@"FrameworkScripts\Notification.pix"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-<<<<<<< HEAD
-                                  <PropertyValue z:Id="i115">
-=======
                                   <PropertyValue z:Id="i104">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>Parameters</PropertyName>
                                     <_dataType>Value</_dataType>
                                     <_expression i:nil="true" />
                                     <_value xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d19p1:ArrayOfArgumentItem">
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i116">
-=======
                                       <d19p1:ArgumentItem z:Id="i105">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>dict_config</d19p1:ArgumentName>
                                         <d19p1:Expression>dict_config</d19p1:Expression>
                                         <d19p1:Type>Dictionary&lt;System.String, System.Object&gt;</d19p1:Type>
                                       </d19p1:ArgumentItem>
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i117">
-=======
                                       <d19p1:ArgumentItem z:Id="i106">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>int_notifyType</d19p1:ArgumentName>
                                         <d19p1:Expression>3</d19p1:Expression>
                                         <d19p1:Type>System.Int32</d19p1:Type>
                                       </d19p1:ArgumentItem>
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i118">
-=======
                                       <d19p1:ArgumentItem z:Id="i107">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>list_attaches</d19p1:ArgumentName>
                                         <d19p1:Expression>new List&lt;string&gt;{}</d19p1:Expression>
                                         <d19p1:Type>List&lt;System.String&gt;</d19p1:Type>
                                       </d19p1:ArgumentItem>
-<<<<<<< HEAD
-                                      <d19p1:ArgumentItem z:Id="i119">
-                                        <d19p1:ArgumentName>sec_mailPassword</d19p1:ArgumentName>
-                                        <d19p1:Expression>dict_secureData["MailCred_passwd"]</d19p1:Expression>
-                                        <d19p1:Type>System.Security.SecureString</d19p1:Type>
-                                      </d19p1:ArgumentItem>
-                                      <d19p1:ArgumentItem z:Id="i120">
-=======
                                       <d19p1:ArgumentItem z:Id="i108">
                                         <d19p1:ArgumentName>sec_mailPassword</d19p1:ArgumentName>
                                         <d19p1:Expression>dict_secureData["MailCred"]</d19p1:Expression>
                                         <d19p1:Type>System.Security.SecureString</d19p1:Type>
                                       </d19p1:ArgumentItem>
                                       <d19p1:ArgumentItem z:Id="i109">
->>>>>>> f303b7c (make some other changes in project logic)
                                         <d19p1:ArgumentName>bool_takeScreenshot</d19p1:ArgumentName>
                                         <d19p1:Expression>false</d19p1:Expression>
                                         <d19p1:Type>System.Boolean</d19p1:Type>
@@ -1385,11 +845,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                                     </_value>
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-<<<<<<< HEAD
-                                  <PropertyValue z:Id="i121">
-=======
                                   <PropertyValue z:Id="i110">
->>>>>>> f303b7c (make some other changes in project logic)
                                     <PropertyName>Timeout</PropertyName>
                                     <_dataType>Value</_dataType>
                                     <_expression i:nil="true" />
@@ -1406,11 +862,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                               </AbstractStep>
                             </Childs>
                             <Id>72d6817e-9864-4f38-96d6-e7bf9568dba4</Id>
-<<<<<<< HEAD
-                            <Parent z:Ref="i108" />
-=======
                             <Parent z:Ref="i97" />
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <EnableStatus>true</EnableStatus>
@@ -1419,17 +871,10 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                           </AbstractStep>
-<<<<<<< HEAD
-                          <AbstractStep z:Id="i122" i:type="ExecutedStep">
-                            <Childs />
-                            <Id>6f218106-b1f6-4c45-a215-a53ba23be744</Id>
-                            <Parent z:Ref="i108" />
-=======
                           <AbstractStep z:Id="i111" i:type="ExecutedStep">
                             <Childs />
                             <Id>6f218106-b1f6-4c45-a215-a53ba23be744</Id>
                             <Parent z:Ref="i97" />
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <EnableStatus>true</EnableStatus>
@@ -1440,15 +885,9 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                           </AbstractStep>
                         </Childs>
                         <Id>3a91a78e-de16-4e57-9205-603d59214991</Id>
-<<<<<<< HEAD
-                        <Parent z:Ref="i107" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i123">
-=======
                         <Parent z:Ref="i96" />
                         <PropertyValues>
                           <PropertyValue z:Id="i112">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Condition</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>int_transactionRetryCounter==int_maxTransactionRetry</_expression>
@@ -1463,32 +902,19 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.If</_activityFullName>
                       </AbstractStep>
-<<<<<<< HEAD
-                      <AbstractStep z:Id="i124" i:type="ExecutedStep">
-                        <Childs />
-                        <Id>3459fbc4-daeb-42fe-a200-0fef0fb65da2</Id>
-                        <Parent z:Ref="i107" />
-                        <PropertyValues>
-                          <PropertyValue z:Id="i125">
-=======
                       <AbstractStep z:Id="i113" i:type="ExecutedStep">
                         <Childs />
                         <Id>3459fbc4-daeb-42fe-a200-0fef0fb65da2</Id>
                         <Parent z:Ref="i96" />
                         <PropertyValues>
                           <PropertyValue z:Id="i114">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Text</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>$"{error.GetType()}: {errorMessage}\n{errorSource}"</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-<<<<<<< HEAD
-                          <PropertyValue z:Id="i126">
-=======
                           <PropertyValue z:Id="i115">
->>>>>>> f303b7c (make some other changes in project logic)
                             <PropertyName>Exception</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>errorInfo</_expression>
@@ -1505,11 +931,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                       </AbstractStep>
                     </Childs>
                     <Id>593eb75d-021b-40fc-bdfa-f02f39d6d223</Id>
-<<<<<<< HEAD
-                    <Parent z:Ref="i86" />
-=======
                     <Parent z:Ref="i75" />
->>>>>>> f303b7c (make some other changes in project logic)
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <EnableStatus>true</EnableStatus>
@@ -1520,15 +942,9 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
                   </AbstractStep>
                 </Childs>
                 <Id>ec2bc6dc-7cfb-48b2-8cbf-16d70cd79c8a</Id>
-<<<<<<< HEAD
-                <Parent z:Ref="i85" />
-                <PropertyValues>
-                  <PropertyValue z:Id="i127">
-=======
                 <Parent z:Ref="i74" />
                 <PropertyValues>
                   <PropertyValue z:Id="i116">
->>>>>>> f303b7c (make some other changes in project logic)
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>error.GetType() == new BusinessRuleException().GetType()</_expression>
@@ -1547,44 +963,28 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
             <Id>fff9fef4-08f8-4833-87e3-c78ebf21f1d9</Id>
             <Parent z:Ref="i10" />
             <PropertyValues>
-<<<<<<< HEAD
-              <PropertyValue z:Id="i128">
-=======
               <PropertyValue z:Id="i117">
->>>>>>> f303b7c (make some other changes in project logic)
                 <PropertyName>Message</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>errorMessage</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-<<<<<<< HEAD
-              <PropertyValue z:Id="i129">
-=======
               <PropertyValue z:Id="i118">
->>>>>>> f303b7c (make some other changes in project logic)
                 <PropertyName>StackTrace</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression></_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-<<<<<<< HEAD
-              <PropertyValue z:Id="i130">
-=======
               <PropertyValue z:Id="i119">
->>>>>>> f303b7c (make some other changes in project logic)
                 <PropertyName>Source</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>errorSource</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-<<<<<<< HEAD
-              <PropertyValue z:Id="i131">
-=======
               <PropertyValue z:Id="i120">
->>>>>>> f303b7c (make some other changes in project logic)
                 <PropertyName>Exception</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>error</_expression>
@@ -1599,11 +999,7 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
             <Text></Text>
             <_activityFullName>BR.Core.Base.Catch</_activityFullName>
           </AbstractStep>
-<<<<<<< HEAD
-          <AbstractStep z:Id="i132" i:type="ExecutedStep">
-=======
           <AbstractStep z:Id="i121" i:type="ExecutedStep">
->>>>>>> f303b7c (make some other changes in project logic)
             <Childs />
             <Id>ad3dae71-abb3-49c8-a2bd-75dcffa81d5c</Id>
             <Parent z:Ref="i10" />
@@ -1642,81 +1038,50 @@ bool_useDispatcher==false -  Сразу запускается скрипт Proc
     <d2p1:string>PIX.Core.Exceptions</d2p1:string>
   </Namespaces>
   <Params>
-<<<<<<< HEAD
-    <Parameter z:Id="i133">
-=======
     <Parameter z:Id="i122">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-<<<<<<< HEAD
-    <Parameter z:Id="i134">
-=======
     <Parameter z:Id="i123">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_secureData</Name>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Security.SecureString, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-<<<<<<< HEAD
-    <Parameter z:Id="i135">
-=======
     <Parameter z:Id="i124">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_paths</Name>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-<<<<<<< HEAD
-    <Parameter z:Id="i136">
-=======
     <Parameter z:Id="i125">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>bool_useDispatcher</Name>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-<<<<<<< HEAD
-    <Parameter z:Id="i137">
-=======
     <Parameter z:Id="i126">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>str_queueName</Name>
       <TypeString>System.String</TypeString>
     </Parameter>
-<<<<<<< HEAD
-    <Parameter z:Id="i138">
-=======
     <Parameter z:Id="i127">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>int_maxTransactionRetry</Name>
       <TypeString>System.Int32</TypeString>
     </Parameter>
-<<<<<<< HEAD
-    <Parameter z:Id="i139">
-=======
     <Parameter z:Id="i128">
->>>>>>> f303b7c (make some other changes in project logic)
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>int_transactionRetryCounter</Name>
       <TypeString>System.Int32</TypeString>
     </Parameter>
   </Params>
-<<<<<<< HEAD
-=======
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
->>>>>>> f303b7c (make some other changes in project logic)
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>

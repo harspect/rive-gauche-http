@@ -1,13 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
   <CompilationType>CSharp</CompilationType>
-<<<<<<< HEAD
-  <Description i:nil="true" />
-  <Id>03091008-0298-40e9-9ece-f158fcfbb581</Id>
-  <Logic z:Id="i2" i:type="ExecutedStep">
-    <Childs />
-    <Id>1d658cac-b793-4b01-863c-0c23480f2ab0</Id>
-=======
   <Description>Новый скрипт без наполнения.</Description>
   <Id>5461f877-b20f-451c-a80f-15ef7df44d10</Id>
   <Logic z:Id="i2" i:type="ExecutedStep">
@@ -751,7 +744,6 @@ $"&amp;city={str_cityCode}"</_expression>
       </AbstractStep>
     </Childs>
     <Id>58bcbdde-2eca-435b-ba9b-98106c05d4da</Id>
->>>>>>> f303b7c (make some other changes in project logic)
     <Parent i:nil="true" />
     <PropertyValues />
     <SelectedOptionId i:nil="true" />
@@ -763,9 +755,6 @@ $"&amp;city={str_cityCode}"</_expression>
   </Logic>
   <Name>ExtractAddresses.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-<<<<<<< HEAD
-  <Params />
-=======
   <Params>
     <Parameter z:Id="i87">
       <DefaultValueExpression></DefaultValueExpression>
@@ -792,7 +781,6 @@ $"&amp;city={str_cityCode}"</_expression>
       <TypeString>System.Text.Json.JsonElement</TypeString>
     </Parameter>
   </Params>
->>>>>>> f303b7c (make some other changes in project logic)
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
