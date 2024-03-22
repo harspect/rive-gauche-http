@@ -91,7 +91,11 @@
           <PropertyValue z:Id="i12">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
+<<<<<<< HEAD
             <_expression>dict_config["MailCred_login"].ToString()</_expression>
+=======
+            <_expression>dict_config["MailCred"].ToString()</_expression>
+>>>>>>> f303b7c (make some other changes in project logic)
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -1285,6 +1289,10 @@
       <TypeString>System.Boolean</TypeString>
     </Parameter>
   </Params>
+<<<<<<< HEAD
+=======
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
+>>>>>>> f303b7c (make some other changes in project logic)
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>
